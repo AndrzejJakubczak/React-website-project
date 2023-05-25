@@ -7,8 +7,8 @@ import SliderHome from "../components/Slider"
 
 const Home = () => {
   const {addToCart} =useContext(DataContainer);
-  const newArrivalData = products.filter(item => item.category ==="mobile" || item.category ==="wireless");
-  const bestSales = products.filter(item => item.category ==="sofa");
+  const newArrivalData = products.filter(item => item.category ==="smartphone" || item.category ==="słuchawki");
+  const bestSales = products.filter(item => item.category ==="sofy");
   useEffect(()=> {
     window.scrollTo(0,0);
   },[])
@@ -18,7 +18,7 @@ const Home = () => {
       <Wrapper />
       <Section title="Wyprzedaż" bgColor="#f6f9fc" productItems={discoutProducts} addToCart={addToCart}/>
       <Section title="Nowość" bgColor="white" productItems={newArrivalData} addToCart={addToCart}/>
-      <Section title="Dobra cena" bgColor="#f6f9fc" productItems={bestSales} addToCart={addToCart}/>
+      <Section title="Artykuły w dobrej cenie" bgColor="#f6f9fc" productItems={bestSales} addToCart={addToCart}/>
     </Fragment>
   )
 }
