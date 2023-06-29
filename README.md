@@ -1,6 +1,7 @@
 # E-Shopify
 > E-commerce website build by ReactJS and react-bootstrap.
-> Live demo [_here_](http://e-shopify.pl/).
+
+#### Live demo [_here_](http://e-shopify.pl/).
 
 
 ## Technologies Used
