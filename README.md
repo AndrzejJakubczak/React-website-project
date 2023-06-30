@@ -20,7 +20,7 @@
 
 
 ## Screenshots
-![Example screenshot](./img/)
+![Example screenshot](./img/eshopify.jpg)
 
 
 
