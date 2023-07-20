@@ -12,7 +12,6 @@ const SearchBar = ({setFilterList}) => {
         <input
         type="text"
         placeholder="Szukaj..."
-        // value={value}
         onChange={handelChange}
         />
         <ion-icon name="search-outline" className="search-icon"></ion-icon>
