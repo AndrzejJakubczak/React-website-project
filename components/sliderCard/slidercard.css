@@ -25,12 +25,12 @@
 }
 
 .homeSlide ul li button {
-    background: transparent !important;
-    color: transparent !important;
+    background: transparent;
+    color: transparent;
 }
 
 .homeSlide ul li button::before {
-    font-size: 15px !important;
+    font-size: 15px;
     color: #0f3460;
     position: absolute;
     top: 2px;
