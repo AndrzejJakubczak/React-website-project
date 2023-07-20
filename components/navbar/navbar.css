@@ -1,14 +1,14 @@
 /* Navbar Section  */
 .navbar {
-  position: relative !important;
+  position: relative;
   background-color: white;
-  transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  font-size: 1.2rem !important;
+  transition: all 0.3s ease-out 0s;
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
+  font-size: 1.2rem;
 }
 
 .navbar.fixed {
-  position: fixed !important;
+  position: fixed;
   width: 100vw;
   left: 0;
   top: 0;
@@ -16,69 +16,69 @@
 
 .navbar-container {
   display: flex;
-  justify-content: space-between !important;
+  justify-content: space-between;
 }
 
 .navbar-toggler {
-  position: relative !important;
-  background-color: transparent !important;
-  border-color: transparent !important;
+  position: relative;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .navbar-toggler span {
-  display: block !important;
-  background-color: black !important;
-  height: 4px !important;
-  width: 27px !important;
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
-  transform: rotate(0deg) !important;
-  left: 0 !important;
-  opacity: 1 !important;
+  display: block;
+  background-color: black;
+  height: 4px;
+  width: 27px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transform: rotate(0deg);
+  left: 0;
+  opacity: 1;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
-  border: none !important;
-  outline: 0 !important;
-  box-shadow: 0 0 0 transparent !important;
+  border: none;
+  outline: 0;
+  box-shadow: 0 0 0 transparent;
 }
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
-  transition: transform 0.35s ease-in-out !important;
+  transition: transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
-  position: absolute !important;
-  left: 12px !important;
-  top: 10px !important;
-  transform: rotate(135deg) !important;
-  opacity: 0.9 !important;
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  transform: rotate(135deg);
+  opacity: 0.9;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
-  height: 12px !important;
-  visibility: hidden !important;
-  background-color: transparent !important;
+  height: 12px;
+  visibility: hidden;
+  background-color: transparent;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
-  position: absolute !important;
-  left: 12px !important;
-  top: 10px !important;
-  transform: rotate(-135deg) !important;
-  opacity: 0.9 !important;
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  transform: rotate(-135deg);
+  opacity: 0.9;
 }
 
 @media (max-width: 767px) {
   .navbar {
-    font-size: 1.4rem !important;
+    font-size: 1.4rem;
   }
 
   .navbar-nav .nav-item::after {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -101,18 +101,18 @@
 }
 
 .navbar-link {
-  display: flex !important;
+  display: flex;
   text-decoration: none;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  font-size: 10px !important;
-  padding: 0.8rem 0.5rem 0.2rem !important;
+  font-size: 10px;
+  padding: 0.8rem 0.5rem 0.2rem;
 }
 
 .nav-link-label {
   color: black;
-  font-size: 18px !important;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .cart {
-  position: relative !important;
+  position: relative;
   z-index: 3;
 }
 
@@ -147,13 +147,13 @@
 
 @media (max-width: 767px) {
   .nav-link {
-    padding: 0.7rem 1rem !important;
+    padding: 0.7rem 1rem;
   }
 }
 
 .navbar-nav .nav-item {
   position: relative;
-  padding-bottom: 3px !important;
+  padding-bottom: 3px;
   margin: 0 1rem;
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
@@ -166,7 +166,7 @@
 }
 
 .offcanvas.offcanvas-end {
-  width: 300px !important;
+  width: 300px;
 }
 
 .media-cart {
@@ -175,8 +175,8 @@
 
 @media (max-width:767px) {
   .navbar-toggler span {
-    width: 25px !important;
-    height: 3px !important;
+    width: 25px;
+    height: 3px;
   }
   ion-icon {
     font-size: 20px;
@@ -187,7 +187,7 @@
   }
 
   .expanded-cart {
-    display: none !important;
+    display: none;
   }
 
   .media-cart {
